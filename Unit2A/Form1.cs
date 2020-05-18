@@ -40,7 +40,7 @@ namespace Unit3A
             }
             if (isValid)
             {
-                controller = new Controller("Server = " + server + "\\MSSQLSERVER;" +
+                controller = new Controller("Server = " + server + ";" +
                     "Database = " + database + ";" +
                     "User Id = " + user + ";" +
                     "Password = " + password + ";");
